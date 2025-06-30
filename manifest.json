@@ -1,0 +1,22 @@
+{
+    "manifest_version":3,
+    "name":"fix-mate",
+    "version": "1.0",
+    "description":"",
+    "content_scripts":[
+        {
+
+            "matches":[
+                 "https://ide.geeksforgeeks.org/*",
+        "https://www.programiz.com/cpp-programming/online-compiler/*"
+                
+            ],
+            "js":[]
+        }
+
+    ],
+    "icons":{
+        "16":"icon.png"
+    },
+    "permission":["activeTab"]
+}
