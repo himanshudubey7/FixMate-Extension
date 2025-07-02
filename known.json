@@ -1,0 +1,8 @@
+{
+  "expected ';' before": " You probably forgot a semicolon `;` before the indicated token.",
+  "was not declared in this scope": " You're using a variable or function that hasn't been declared.",
+  "undefined reference to": " You're calling a function or variable that was declared but never defined.",
+  "no matching function for call to": " You're calling a function with wrong parameters (types or count).",
+  "cannot convert": " You're assigning or passing one type where another is expected (e.g., int to char).",
+  "‘cout’ was not declared": "You forgot to include `#include <iostream>` or write `using namespace std;`."
+}
